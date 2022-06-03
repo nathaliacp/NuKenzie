@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.mainLandingPage{
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingSection{
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+.landingName{
+    font-family: "Nunito";
+    font-size: 22px;
+    font-weight: 900;
+
+    display: flex;
+    gap: 7px;
+}
+
+.landingName span{
+    color: #FD377E;
+}
+
+.landingTitle{
+    text-align: center;
+
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 48px;
+}
+
+.landingText{
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.landingBtn{
+    width: 200px;
+    height: 48px;
+
+    background-color: #FD377E;
+    color: #FFFFFF;
+
+    border: 2px solid #FD377E;
+    border-radius: 8px;
+
+    font-family: "Nunito";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.landingBtn:hover{
+    cursor: pointer;
+
+    background-color: #E34981;
+    color: #F8F9FA;
+}
+
+.imgSection img{
+    display: none;
+}
+
+@media screen and (min-width: 1020px){
+    .landingSection{
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 28px;
+    }
+    .landingTitle{
+        text-align: left;
+    }
+    .imgSection img{
+        display: block;
+        width: 593px;
+    }
+}
+

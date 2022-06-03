@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.transactionItem{
+    background-color: #F8F9FA;
+    color: #000000;
+
+    border-radius: 4px;
+
+    padding: 8px 0px 8px 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.transactionItemGreen{
+    border-left:4px solid #03B898;
+}
+
+.transactionItemGrey{
+    border-left:4px solid #e01e37;
+}
+
+.transactionInfo p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #212529;
+}
+
+.transactionInfo span{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #5B6166;
+}
+
+.transactionValue{
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+
+.transactionValue p{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #212529;
+}
+
+.trashBtn{
+    width: 22px;
+    height: 22px;
+
+    background: url(../../../../assets/img/trashBtn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E9ECEF;
+
+    border-radius: 2.46154px;
+
+    cursor: pointer;
+}
+
+.trashBtn:hover{
+    background: url(../../../../assets/img/selectedTrashBtn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #5B6166;
+}
+
+@media screen and (min-width: 1020px){
+    .transactionItem{
+        max-height: 87px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .transactionInfo{
+        margin-left: 14px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .transactionInfo p{
+        font-size: 20px;
+    }
+
+    .transactionInfo span{
+        font-size: 15px;
+    }
+
+    .transactionValue{
+        display: flex;
+        gap: 27px;
+        margin-right: 13px;
+        margin-top: 7px;
+    }
+}

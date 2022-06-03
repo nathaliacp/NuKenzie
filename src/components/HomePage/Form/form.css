@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.formSection{
+    background-color: #FFFFFF;
+
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+
+    font-family: "Nunito";
+    color: #000000;
+
+    margin: 14px;
+    padding: 10px 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.descriptionLabel{
+    color: #212529;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.descriptionInput{
+    width: 214px;
+    height: 32px;
+
+    padding: 0px 16px;
+
+    background: #F8F9FA;
+
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+}
+
+.descriptionInput:focus{
+    outline: 0;
+    border: 2px solid #212529;
+}
+
+.descriptionSpan{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #868E96;
+}
+
+.transactionValueType{
+    display: flex;
+    gap: 40px;
+}
+
+.totalValueDiv{
+    display: flex;
+    flex-direction: column;
+
+    color: #212529;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.valueInput{
+    width: 45px;
+    height: 32px;
+
+    padding: 0px 16px;
+
+    background-color: #F8F9FA;
+    background-image: url(../../../assets/img/moneySymbol.png);
+    background-repeat: no-repeat;
+    background-position: right; 
+
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+}
+
+.valueInput::-webkit-inner-spin-button,
+.valueInput::-webkit-outer-spin-button {
+    -webkit-appearance:none;
+}
+
+.valueInput:focus{
+    outline: 0;
+    border: 2px solid #212529;
+}
+
+.valueType{
+    display: flex;
+    flex-direction: column;
+
+    color: #212529;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.valueTypeSelect{
+    width: 110px;
+    height: 37px;
+
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+
+    background-color: #F8F9FA;
+
+    cursor: pointer;
+}
+
+.valueTypeSelect:focus{
+    outline: 0;
+    border: 2px solid #212529;
+}
+
+.ls-valueTypeSelect option{
+    background-color: #F8F9FA;
+    color: #5B6166;
+}
+
+.ls-valueTypeSelect option:hover{
+    background-color: #E9ECEF;
+    color: #212529;
+}
+
+.insertValueBtn{
+    width: 240px;
+    height: 40px;
+
+    background-color: #FD377E;
+    color: #FFFFFF;
+
+    border: 2px solid #FD377E;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.insertValueBtn:hover{
+    background-color: #E34981;
+    color: #F8F9FA;
+}
+
+@media screen and (min-width: 425px){
+    .descriptionInput{
+        width: 314px;
+        height: 36px;
+    }
+
+    .valueInput{
+        width: 65px;
+        height: 36px;
+    }
+
+    .valueTypeSelect{
+        width: 140px;
+        height: 40px;
+    }
+
+    .insertValueBtn{
+        width: 320px;
+        height: 45px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formSection{
+        width: 363px;
+        height: 351px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        padding-top: 38px;
+    }
+
+    .descriptionLabel{
+        font-size: 16px;
+    }
+
+    .descriptionInput{
+        width: 314px;
+        height: 53px;
+    }
+
+    .descriptionSpan{
+        font-size: 13px;
+    }
+
+    .valueInput{
+        width: 128px;
+        height: 48px;
+    }
+
+    .valueTypeSelect{
+        width: 148px;
+        height: 48px;
+    }
+
+    .insertValueBtn{
+        width: 100%;
+        height: 48px;
+        
+        font-size: 18px;
+    }
+}

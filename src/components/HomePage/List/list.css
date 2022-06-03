@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.transactionsList{
+    padding: 14px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+} 
+
+.transactionsList div h2{
+    color: #5B6166;
+
+    font-family: "Nunito";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+
+    text-align: center;
+}
+
+.emptyTransactions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.emptyCardIMG{
+  background-image: url(../../../assets/img/emptyCard.png);
+  width: 290px;
+  height: 88px;
+}
+
+@media screen  and (min-width: 1020px){
+    .transactionsList{
+        background-color: #FFFFFF;
+        margin-top: 29px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+        max-height: 430px;
+        overflow-y: auto;
+    }
+
+    .transactionsList::-webkit-scrollbar {
+        width: 0.25rem;
+    }
+    
+    .transactionsList::-webkit-scrollbar-thumb {
+        background-color: #8f8f8f;
+        border-radius: 1.25rem;
+    }
+
+    .emptyTransactions h2{
+        font-size: 22px;
+    }
+
+    .emptyTransactions{
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+
+    .emptyCardIMG{
+        width: 562px;
+        height: 88px;
+    }
+}

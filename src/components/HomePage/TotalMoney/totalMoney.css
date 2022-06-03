@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.totalMoneyDiv{
+    background-color: #FFFFFF;
+    color: #000000;
+
+    font-family: "Nunito";
+
+    padding: 14px;
+    height: 74px;
+    margin-top: 16px;
+
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.totalMoneyValue{
+    color: #212529;
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.totalMoneyValue span{
+    color: #FD377E;
+}
+
+.totalMoneyText{
+    color: #5B6166;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+@media screen and (min-width: 768px) {
+    .totalMoneyDiv{
+        width: 390px;
+        margin: 0;
+
+        align-items: flex-start;
+    }
+
+    .totalMoneyValue{
+        font-size: 24px;
+
+        gap: 180px;
+    }
+
+    .totalMoneyText{
+        font-size: 16px;
+    }
+}
