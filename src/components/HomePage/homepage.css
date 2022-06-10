@@ -61,6 +61,12 @@
     padding: 10px;
 }
 
+.listSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .listInfos{
     margin-top: 10px;
     margin-bottom: 15px;
@@ -148,6 +154,9 @@
         font-size: 18px;
 
         cursor: pointer;
+    }
+    .listSection{
+        display: block;
     }
 
     .listInfos{

@@ -6,7 +6,7 @@
 
     border-radius: 4px;
 
-    width: 60vw;
+    width: 85vw;
     padding: 8px 0px 8px 8px;
 
     display: flex;
@@ -77,12 +77,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: #5B6166;
-}
-
-@media screen and (max-width: 1019px) {
-    .transactionItem{
-        
-    }
 }
 
 @media screen and (min-width: 1020px){
