@@ -6,6 +6,7 @@
 
     border-radius: 4px;
 
+    width: 60vw;
     padding: 8px 0px 8px 8px;
 
     display: flex;
@@ -78,9 +79,16 @@
     background-color: #5B6166;
 }
 
+@media screen and (max-width: 1019px) {
+    .transactionItem{
+        
+    }
+}
+
 @media screen and (min-width: 1020px){
     .transactionItem{
         max-height: 87px;
+        width: auto;
 
         display: flex;
         flex-direction: row;

@@ -172,8 +172,8 @@
 
 @media screen and (min-width: 768px) {
     .formSection{
-        width: 363px;
         height: 351px;
+        max-width: 363px;
 
         display: flex;
         flex-direction: column;
